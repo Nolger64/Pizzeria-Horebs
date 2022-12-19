@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.banner1 {
+  background-image: url(./assets/img/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hr-footer {
+  position: absolute; /* Coloca la línea horizontal en relación al div contenedor */
+  top: 50%; /* Coloca la línea horizontal a mitad del div contenedor */
+  left: 0; /* Coloca la línea horizontal en la parte izquierda del div contenedor */
+  right: 0; /* Coloca la línea horizontal en la parte derecha del div contenedor */
+  width: 100%; /* Hace que la línea horizontal ocupe todo el ancho del div contenedor */
+  overflow: hidden;
+}
+.pizzeria-footer {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+}
