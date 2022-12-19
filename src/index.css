@@ -6,6 +6,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.banner2 {
+  background-image: url(./assets/img/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22rem;
+}
 .hr-footer {
   position: absolute; /* Coloca la línea horizontal en relación al div contenedor */
   top: 50%; /* Coloca la línea horizontal a mitad del div contenedor */
